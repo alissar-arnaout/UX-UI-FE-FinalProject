@@ -42,6 +42,9 @@ margin: 0 auto;
 	padding-top: 300px;
 }
 
+
+/* Search Bar Starts Here */
+
 .input-group{
 	padding-top: 50px;
 	width: 1000px !important;
@@ -58,7 +61,7 @@ margin: 0 auto;
 .form-control {
 	height: 70px;
 	border-radius: 50px !important;
-
+	
 }
 
 .topBar {
@@ -69,6 +72,8 @@ margin: 0 auto;
 
 
 .searchBarHome {padding-top: 200px; }
+
+/* Search Bar Ends Here */
 
 
 
