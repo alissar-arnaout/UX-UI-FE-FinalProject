@@ -180,6 +180,7 @@ h1 {
 #shortBlurb {
 	height:150px;
 	font-size: 25px;
+	font-family: 'Montaga', serif;
 }
 
 #brandImpactImg {
@@ -196,4 +197,52 @@ h1 {
 .navigationBrands {
 	background-color: #d1c9bf;
 	padding-right: 5%;
+}
+
+#RatingSystem {
+	padding-top: 15px;
+}
+
+#productName {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+#price {
+	color: #A44A3F;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.productFabrics {
+	padding-top: 50px;
+	float: left;
+}
+
+.fabrics {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.productInfo {
+	padding-top: 100px;
+	float: right;
+}
+
+h3 {
+	font-family: 'Montaga', serif;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+#similarItems {
+	padding-left: 110px;
 }
