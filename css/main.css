@@ -1,0 +1,169 @@
+.page{
+	width: 1440px;
+}
+
+.backgroundimage{
+	width: 100%;
+	height: 100%;
+	background-image:url("../images/HomeBackground.png");
+	height: 1024px;
+}
+
+.input-group {
+	width:80%;
+	margin: 0 auto;
+}
+
+.navigation {
+padding-right: 5%;
+background-color: #d1c9bf;
+}
+
+.container-fluid{
+width: 100%;
+margin: 0 auto;
+
+}
+
+.navlogo {
+	height: 100px;
+}
+
+.navbar-nav {
+	padding-left: 600px;
+}
+
+.nav-item {
+	padding-left: 30px;
+}
+
+.content {
+	padding-top: 300px;
+}
+
+.input-group{
+	padding-top: 50px;
+}
+
+.btn-primary {
+	background-color: black;
+	width: 150px;
+}
+
+.homepageText {
+	text-align: center
+}
+
+.topBar {
+	background-color: #d1c9bf;
+	padding-bottom: 100px;
+}
+
+.searchBarHome {padding-top: 100px; }
+
+.searchBar {
+	padding-top: 30px;
+}
+
+
+.itemOverview {
+	text-align: left;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #EFEBE7;
+}
+
+.card-deck {
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+
+}
+
+.card {
+    width: 250px;
+    margin: 10px;
+    display:inline-block;
+    border: none;
+    padding-bottom: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.card-title {
+    font-size: 16px;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.card-text {
+	font-size: 14px;
+	text-align: left;
+}
+
+.flexContainer { 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 100%;
+}
+
+.outerContainer {
+    margin-top: 30px;
+    justify-content: center; }
+
+
+.headerContainer {
+		width: 100%;
+		height: 292px;
+		background-image: url("../images/GirlfriendCollective.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+.brandName {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#zaraLogo {
+	float: right;
+}
+
+#itemImageOne {
+	max-height: 600px;
+	padding-right:10px;
+}
+
+#itemImageTwo {
+	max-height: 600px;
+}
+
+.itemOverviewText {
+	padding-right: 90px;
+	padding-top: 20px;
+}
+
+.shortOverview {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+
+#shortBlurb {
+	height:150px;
+	font-size: 25px;
+}
+
+#brandImpactImg {
+	float: right;
+	height: 150px;
+}
+
+
+.similarItems {
+	padding-top: 50px;
+}
