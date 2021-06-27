@@ -16,7 +16,6 @@
 
 .navigation {
 padding-right: 5%;
-background-color: #d1c9bf;
 }
 
 .container-fluid{
@@ -166,4 +165,10 @@ margin: 0 auto;
 
 .similarItems {
 	padding-top: 50px;
+}
+
+
+.navigationBrands {
+	background-color: #d1c9bf;
+	padding-right: 5%;
 }
