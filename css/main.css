@@ -318,6 +318,10 @@ h3 {
 .fnav-item {
 	margin: 2vw;
 }
+.fnav-link:hover {
+	color: #fff !important;
+	text-decoration: underline;
+}
 .fnav-link {
 	color: #fff;
 	font-family: 'Montaga', serif;
@@ -377,6 +381,10 @@ iconify-icon {
 }
 .shop-item {
 	color: #1D281A;
+}
+.shop-item:hover {
+	color: #1D281A !important;
+	text-decoration: underline;
 }
 .shopbylist {
 	padding-bottom: 2vw;
