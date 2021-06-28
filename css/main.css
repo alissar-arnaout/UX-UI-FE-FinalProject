@@ -46,6 +46,7 @@ margin: 0 auto;
 .nav-item:hover {
 	text-decoration: underline;
 }
+
 /* Search Bar Starts Here */
 #searchcolor {
 	color: #fff;
