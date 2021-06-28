@@ -369,7 +369,7 @@ iconify-icon {
 }
 .Content {
 	background-color: #fff;
-	padding-bottom: 3vw;
+	padding-bottom: 8vw;
 }
 .shopby {
 	list-style: none;
@@ -433,4 +433,63 @@ h2 {
 }
 .shopbygroup {
 	padding-top: 2vw;
+}
+
+#abelflip {
+
+}
+#abelflip:hover {
+
+}
+#bbco {
+
+}
+#bbco:hover {
+
+}
+#changeflip {
+
+}
+#changeflip:hover {
+
+}
+#dawnflip {
+
+}
+#dawnflip:hover {
+
+}
+#efflip {
+
+}
+#efflip:hover {
+
+}
+#frankflip {
+
+}
+#frankflip:hover {
+
+}
+#harvest {
+
+}
+#harvet:hover {
+
+}
+#gaflip {
+
+}
+#gaflip:hover {
+
+}
+#ivflip {
+
+}
+#ivflip:hover {
+
+}
+.morebrands {
+	float: right;
+	padding-right: 8%;
 }
