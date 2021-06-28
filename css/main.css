@@ -188,7 +188,7 @@ h1 {
 
 #zaraLogo {
 	float: right;
-	padding-right: 15%;
+	padding-right: 20%;
 }
 .col-4 {
  	flex:1 0 auto;
@@ -205,8 +205,8 @@ h1 {
 }
 
 .itemOverviewText {
-	padding-right: 90px;
-	padding-top: 20px;
+	padding-right: 30%;
+	padding-top: 8%;
 }
 
 .shortOverview {
@@ -273,8 +273,9 @@ p {
 }
 
 .productInfo {
-	padding-top: 100px;
+	padding-top: 25%;
 	float: right;
+	padding-right: 10%;
 }
 
 h3 {
@@ -305,6 +306,8 @@ h3 {
 .foot-nav {
 	display: inline-flex;
 	list-style: none;
+	justify-content: center;
+	padding: 0;
 }
 .fnav-item {
 	margin: 2vw;
@@ -320,6 +323,7 @@ h3 {
 }
 .iconify {
 	margin: 3vw;
+	display: inline-block;
 }
 .copyrights {
 	color: #fff;
@@ -329,4 +333,13 @@ h3 {
 }
 a {
 	text-decoration: none;
+}
+span.iconify,
+i.iconify,
+iconify-icon {
+ display: inline-block;
+}
+.col-5 {
+ flex:0 0 1;
+ width:41.6666666667%
 }
