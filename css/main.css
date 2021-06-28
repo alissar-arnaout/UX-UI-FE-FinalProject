@@ -369,6 +369,9 @@ iconify-icon {
 .shop-item {
 	color: #1D281A;
 }
+.shopbylist {
+	padding-bottom: 2vw;
+}
 .col-8 {
 	padding-right: 8vw;
 	padding-bottom: 3vw;
@@ -386,12 +389,31 @@ iconify-icon {
 	padding-left: 8vw;
 }
 .col-1 {
- flex:0 0 auto;
+ flex:auto;
  width:auto;
+ display: inline-grid;
+ align-content: center;
 }
 .browse-control {
 	width: auto;
 	height: auto;
 	border-radius: 50px;
-	
+
+}
+.brand-row {
+	padding-top: 2vw;
+	padding-bottom: 6vw;
+}
+h2 {
+	font-family: Montaga !important;
+	font-style: normal !important;
+	font-weight: normal!important;
+	font-size: 56px !important;
+	line-height: 103% !important;
+}
+.filter-brands {
+	justify-content: flex-end;
+}
+.shopbygroup {
+	padding-top: 2vw;
 }
