@@ -80,18 +80,21 @@ margin: 0 auto;
 	font-weight: normal;
 	font-size: 150%;
 }
+
 .topBar {
 	background-color: #d1c9bf;
-	padding-bottom: 100px;
+	padding-bottom: 8vw;
 	
 }
 
-
-section {
-	padding-top: 200px;
+.searchBar {
+	padding-top: 12vw;
 	text-align: center;       
 }
-
+.searchBarHome {
+	padding-top: 12vw;
+	text-align: center;
+}
 
 /* Search Bar Ends Here */
 
@@ -159,10 +162,16 @@ h1 {
 }
 
 .outerContainer {
-    margin-top: 30px;
-    justify-content: center; }
-
-
+    margin-top: 4vw;
+    justify-content: center; 
+    padding-bottom: 5vw;
+}
+.moreitems {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 12%;
+	padding-bottom: 5vw;
+}
 .headerContainer {
 		width: 100%;
 		height: 292px;
@@ -172,12 +181,18 @@ h1 {
 	}
 
 .brandName {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 3vw;
+	background-color: #FFF;
+	padding: 3vw;
 }
 
 #zaraLogo {
 	float: right;
+	padding-right: 15%;
+}
+.col-4 {
+ 	flex:1 0 auto;
+ 	width:33.3333333333%
 }
 
 #itemImageOne {
@@ -197,7 +212,7 @@ h1 {
 .shortOverview {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	
+	background-color: #fff;
 }
 
 #shortBlurb {
@@ -205,15 +220,15 @@ h1 {
 	font-size: 25px;
 	font-family: 'Montaga', serif;
 }
-
 #brandImpactImg {
 	float: right;
 	height: 150px;
+	image-rendering: optimizequality;
 }
-
 
 .similarItems {
 	padding-top: 50px;
+	background-color: #fff;
 }
 
 
@@ -225,7 +240,9 @@ h1 {
 #RatingSystem {
 	padding-top: 15px;
 }
-
+.ratingblurb {
+	padding-left: 15%;
+}
 #productName {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
@@ -268,4 +285,48 @@ h3 {
 
 #similarItems {
 	padding-left: 110px;
+}
+.aboutbrand {
+	background-color: #fff;
+}
+.footer {
+	background-color: #1D281A;
+	margin: 0;
+	display: grid;
+	justify-content: center;
+}
+.footerlogo {
+	justify-content: center;
+	display: grid;
+}
+.footernav {
+	display: inline-block;
+}
+.foot-nav {
+	display: inline-flex;
+	list-style: none;
+}
+.fnav-item {
+	margin: 2vw;
+}
+.fnav-link {
+	color: #fff;
+	font-family: 'Montaga', serif;
+	font-size: 20px;
+}
+.social {
+	display: inline-flex;
+	justify-content: center;
+}
+.iconify {
+	margin: 3vw;
+}
+.copyrights {
+	color: #fff;
+	padding-top: 1vw;
+	padding-bottom: 2vw;
+	text-align: center;
+}
+a {
+	text-decoration: none;
 }
