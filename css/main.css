@@ -514,6 +514,7 @@ h2 {
 }
 .learnmore:hover {
 	text-decoration: underline;
+	color: #1D281A;
 }
 #morebttn {
 	display: none;
