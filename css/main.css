@@ -493,3 +493,22 @@ h2 {
 	float: right;
 	padding-right: 8%;
 }
+.learnmore {
+	display: grid;
+	justify-content: flex-end;
+	padding-right: 18%;
+	color: #1D281A;
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 150%;
+	background-color: white;
+	border: none;
+}
+.learnmore:hover {
+	text-decoration: underline;
+}
+#morebttn {
+	display: none;
+}
