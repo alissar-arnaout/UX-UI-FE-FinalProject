@@ -126,9 +126,7 @@ margin: 0 auto;
 }
 .topBar {
 	background-color: #d1c9bf;
-	padding-bottom: 8vw;
-	height: 520px;
-	
+	padding-bottom: 9%;
 }
 
 /* Search Bar */
@@ -194,10 +192,33 @@ margin: 0 auto;
 }
 
 /* Product Page */
+.col-2 {
+ flex:0 0 auto;
+ width:15%;
+}
+
+.col-6 {
+ width:50%;
+ flex: 0 0 auto;
+ padding-left: 5%;
+ padding-right: 15%;
+}
+
+.row {
+ --bs-gutter-x:1.5rem;
+ --bs-gutter-y:0;
+ display:flex;
+ flex-wrap:wrap;
+ margin-top:calc(var(--bs-gutter-y) * -1);
+ margin-right:calc(var(--bs-gutter-x)/ -2);
+ margin-left:calc(var(--bs-gutter-x)/ -2);
+ flex: initial;
+}
+
 .itemOverview {
 	text-align: left;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	background-color: #EFEBE7;
 }
 #similarItems {
@@ -253,27 +274,38 @@ margin: 0 auto;
 	padding-bottom: 5vw;
 }
 .brandName {
-	padding-top: 3vw;
+	padding-top: 5%;
 	background-color: #FFF;
-	padding: 3vw;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 3%;
 }
-#zaraLogo {
-	float: right;
-	padding-right: 20%;
+.ratingblurb {
+	justify-content: flex-start;
+	padding-left: 10%;
+}
+.ratinglogo {
+	justify-content: flex-end;
+	padding-right: 10%;
 }
 .col-4 {
- 	flex:1 0 auto;
- 	width:33.3333333333%
+ 	flex:auto;
+ 	width:33.3333333333%;
+ 	display: grid;
 }
 #itemImageOne {
-	max-height: 600px;
-	padding-right:10px;
+	width: auto;
+	padding-right:2%;
+	height: 100%;
+	image-rendering: optimizequality;
 }
 #itemImageTwo {
-	max-height: 600px;
+	height: 100%;
+	image-rendering: optimizequality;
+	width: auto;
+	padding-right: 2%;
 }
 .itemOverviewText {
-	padding-right: 30%;
 	padding-top: 8%;
 }
 .shortOverview {
@@ -291,8 +323,13 @@ margin: 0 auto;
 	height: 150px;
 	image-rendering: optimizequality;
 }
+.ppaimpact {
+	display: flex;
+	justify-content: flex-end;
+	width: 10%;
+}
 #RatingSystem {
-	padding-top: 15px;
+	padding-top: 2%;
 }
 #productName {
 	font-family: 'Josefin Sans', sans-serif;
@@ -308,6 +345,12 @@ margin: 0 auto;
 	padding-top: 50px;
 	float: left;
 }
+.productimg {
+	display: flex;
+	justify-content: center;
+	image-rendering: optimizequality;
+	padding-left: 12%;
+}
 .fabrics {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
@@ -316,14 +359,13 @@ margin: 0 auto;
 .productInfo {
 	padding-top: 25%;
 	float: right;
-	padding-right: 10%;
 }
 .aboutbrand {
 	background-color: #fff;
 }
 .col-5 {
- flex:0 0 1;
- width:41.6666666667%
+ flex:auto;
+ width:auto;
 }
 .learnmore {
 	display: grid;
@@ -349,6 +391,15 @@ margin: 0 auto;
 	text-align: right;
 	border: none;
 	background-color: transparent;
+}
+@media only screen(itemOverview) and (min-width: 1662px) {}
+@media only screen(itemOverview) and (max-width: 1662px) {
+	#itemImageOne {
+		max-height: 500px;
+	}
+	#itemImageTwo {
+		max-height: 500px;
+	}
 }
 
 /*Brands Page */
@@ -397,7 +448,6 @@ margin: 0 auto;
 	padding-bottom: 2vw;
 }
 .col-8 {
-	padding-right: 8vw;
 	padding-bottom: 3vw;
 }
 .col {
