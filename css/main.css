@@ -154,6 +154,9 @@ margin: 0 auto;
 .btn-primary:hover {
     background-color: #A44A3F;
 }
+#searchcolor {
+	color: #fff;
+}
 .form-control {
 	height: 70px;
 	border-top-left-radius: 50px;
