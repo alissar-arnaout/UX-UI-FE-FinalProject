@@ -357,15 +357,30 @@ margin: 0 auto;
 	font-size: 18px;
 }
 .productInfo {
-	padding-top: 25%;
+	padding-top: 40%;
 	float: right;
+}
+#productbttn {
+	color: #1D281A;
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 150%;
+}
+#productbttn:hover {
+	text-decoration: underline;
 }
 .aboutbrand {
 	background-color: #fff;
+	padding-right: 3%;
 }
 .col-5 {
  flex:auto;
  width:auto;
+}
+.infoendcol {
+	width: 0%;
 }
 .learnmore {
 	display: grid;
@@ -392,6 +407,9 @@ margin: 0 auto;
 	border: none;
 	background-color: transparent;
 }
+#myBtn:hover {
+	text-decoration: underline;
+}
 @media only screen(itemOverview) and (min-width: 1662px) {}
 @media only screen(itemOverview) and (max-width: 1662px) {
 	#itemImageOne {
@@ -400,6 +418,17 @@ margin: 0 auto;
 	#itemImageTwo {
 		max-height: 500px;
 	}
+}
+#moreitemsbttn {
+	font-family: Montaga;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 150%;
+	color: #A44A3F;
+}
+#moreitemsbttn:hover {
+	text-decoration: underline;
 }
 
 /*Brands Page */
@@ -447,8 +476,9 @@ margin: 0 auto;
 .shopbylist {
 	padding-bottom: 2vw;
 }
-.col-8 {
-	padding-bottom: 3vw;
+.col-9 {
+	padding-bottom: 3%;
+	padding-right: 2.5%;
 }
 .col {
 	display: flex;
