@@ -430,6 +430,10 @@ margin: 0 auto;
 #moreitemsbttn:hover {
 	text-decoration: underline;
 }
+.col-9 {
+	padding-bottom: 3%;
+	padding-right: 2.5%;
+}
 
 /*Brands Page */
 .headerContainer {
@@ -476,13 +480,13 @@ margin: 0 auto;
 .shopbylist {
 	padding-bottom: 2vw;
 }
-.col-9 {
-	padding-bottom: 3%;
-	padding-right: 2.5%;
+.col-8 {
+	padding-right: 20%;
 }
 .col {
 	display: flex;
 	width: 100%;
+	padding-bottom: 2%;
 }
 .browse-control {
 	width: auto;
@@ -492,72 +496,144 @@ margin: 0 auto;
 .brand-row {
 	padding-top: 2vw;
 	padding-bottom: 6vw;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 .filter-brands {
 	justify-content: flex-end;
 }
 .shopbygroup {
 	padding-top: 2vw;
+	padding-left: 10%;
 }
 .shopbygroup {
 	padding-top: 2vw;
 }
+.brands {
+	padding: 2%;
+}
+/*
+.brands-item {
+	margin: 2%;
+}
+*/
 
 #abelflip {
-
+	background-image: url(../images/abel-nohover.svg);
+	width: 264px;
+	height: 296px;
+	transition: background-image 1s ease-in-out;
+	background-repeat: no-repeat;
 }
 #abelflip:hover {
-
+	background-image: url(../images/abel-hover.svg);
+	background-repeat: no-repeat;
 }
-#bbco {
-
+#bbcoflip {
+	background-image: url(../images/bbco-nohover.svg);
+	width: 264px;
+	height: 296px;
+	transition: background-image 1s ease-in-out;
+	background-repeat: no-repeat;
 }
-#bbco:hover {
-
+#bbcoflip:hover {
+	background-image: url(../images/bbco-hover.svg);
+	background-repeat: no-repeat;
 }
 #changeflip {
-
+	background-image: url(../images/change-nohover.svg);
+	width: 264px;
+	height: 296px;
+	transition: background-image 1s ease-in-out;
+	background-repeat: no-repeat;
 }
 #changeflip:hover {
-
+	background-image: url(../images/change-hover.svg);
+	background-repeat: no-repeat;
 }
 #dawnflip {
-
+	background-image: url(../images/dawn-nohover.svg);
+	width: 264px;
+	height: 296px;
+	transition: background-image 1s ease-in-out;
+	background-repeat: no-repeat;
 }
 #dawnflip:hover {
-
+	background-image: url(../images/dawn-hover.svg);
+	background-repeat: no-repeat;
 }
 #efflip {
+	background-image: url(../images/ef-nohover.svg);
+	width: 264px;
+	height: 296px;
+	transition: background-image 1s ease-in-out;
+	background-repeat: no-repeat;
 
 }
 #efflip:hover {
-
+	background-image: url(../images/ef-hover.svg);
+	background-repeat: no-repeat;
 }
 #frankflip {
-
+	background-image: url(../images/frank-nohover.svg);
+	width: 264px;
+	height: 296px;
+	transition: background-image 1s ease-in-out;
+	background-repeat: no-repeat;
 }
 #frankflip:hover {
-
+	background-image: url(../images/frank-hover.svg);
+	background-repeat: no-repeat;
 }
-#harvest {
-
+#harvestflip {
+	background-image: url(../images/harvest-nohover.svg);
+	width: 264px;
+	height: 296px;
+	transition: background-image 1s ease-in-out;
+	background-repeat: no-repeat;
 }
-#harvet:hover {
-
+#harvestflip:hover {
+	background-image: url(../images/harvest-hover.svg);
+	background-repeat: no-repeat;
 }
 #gaflip {
-
+	background-image: url(../images/ga-nohover.svg);
+	width: 264px;
+	height: 296px;
+	transition: background-image 1s ease-in-out;
+	background-repeat: no-repeat;
 }
 #gaflip:hover {
-
+	background-image: url(../images/ga-hover.svg);
+	background-repeat: no-repeat;
 }
 #ivflip {
-
+	background-image: url(../images/iv-nohover.svg);
+	width: 264px;
+	height: 296px;
+	transition: background-image 1s ease-in-out;
+	background-repeat: no-repeat;
 }
 #ivflip:hover {
-
+	background-image: url(../images/iv-hover.svg);
+	background-repeat: no-repeat;
 }
 .morebrands {
 	float: right;
-	padding-right: 8%;
+	padding-right: 20%;
+	padding-top: 2%;
+}
+#morebrandsbttn {
+	font-family: Montaga;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 150%;
+	color: #A44A3F;
+}
+#morebrandsbttn:hover {
+	text-decoration: underline;
+}
+.space {
+	margin: 2% !important;
 }
